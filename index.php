@@ -10,6 +10,7 @@ session_start();
 </head>
 <body>
 <?php 
+$var=1;
 require("modele/User.php");
 require("modele/Article.php");
 require("controller/Dao.php");
